@@ -1,0 +1,50 @@
+body {
+	font-family: 'Trebuchet MS', 'Helvetica, sans-serif';
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+}
+
+h1 {
+	font-size: 32px;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+h2 {
+	color: #ffffff;
+	font-size: 56px; 
+}
+
+.background{
+  background-image: url('https://i.imgur.com/hODPKx9.jpg');
+	background-position: 50% 60%;
+	background-size: cover;
+}
+
+
+.hero {
+	padding: 250px 0;
+	margin: 30px;
+	text-shadow: 0 2px #000000;
+	font-family:  'Trebuchet MS', 'Helvetica, sans-serif';
+}
+
+
+p {
+	color: #ffffff;
+	font-size: 2em;
+}
+
+.hero a {
+	color: #ffffff;
+	font-size: 24px;
+	text-decoration: none;
+}
+
+.feet {
+	color: DarkSlateGray;
+	font-size: 16px;
+}
+
+
