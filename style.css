@@ -71,17 +71,17 @@ p {
 #mail:hover{
 	transition: .3s;
 	color: #B1B1B1;
-	text-shadow: 0 2px #000000;
+	text-shadow: 1 2px #000000;
 }
 
 #resume:hover{
 	transition: .3s;
 	color: #B1B1B1;
-	text-shadow: 0 2px #000000;
+	text-shadow: 1 2px #000000;
 }
 
 #github:hover{
 	transition: .3s;
 	color: #B1B1B1;
-	text-shadow: 0 2px #000000;
+	text-shadow: 1 2px #000000;
 }
