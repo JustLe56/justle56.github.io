@@ -1,5 +1,18 @@
+/* color pallete #B1B1B1 #EFEFEF #1A1A1A #D1D1D1 #3E3E3E*/
+
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
+
+.container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+
 body {
-	font-family: 'Trebuchet MS', 'Helvetica, sans-serif';
+	font-family: 'Lexend Deca', sans-serif;
 	height: 100%;
 	margin: 0;
 	text-align: center;
@@ -11,7 +24,6 @@ body {
 
 h1 {
 	font-size: 32px;
-  font-family: Verdana, Geneva, sans-serif;
 }
 
 h2 {
@@ -19,17 +31,12 @@ h2 {
 	font-size: 56px; 
 }
 
-.background{
-  	
-}
 
 
-.hero {
-	padding: 250px 0;
-	margin: 30px;
+.hello {
+	height: 60%;
 	font-weight: bold;
-	text-shadow: 0 2px #000000;
-	font-family:  'Trebuchet MS', 'Helvetica, sans-serif';
+	text-shadow: 1px 2px #000000;
 }
 
 
@@ -38,15 +45,43 @@ p {
 	font-size: 2em;
 }
 
-.hero a {
+.hello a {
 	color: #ffffff;
 	font-size: 24px;
 	text-decoration: none;
 }
 
-.feet {
-	color: DarkSlateGray;
-	font-size: 16px;
+#footer {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 26px;
+	position: relative;
+	font-weight: bold;
 }
 
+#github a{
+	color: #ffffff;
+	font-size: .5em;
+	text-decoration: none;
+	position: absolute;
+	bottom: 0%;
+	text-align: center;
+}
 
+#mail:hover{
+	transition: .3s;
+	color: #B1B1B1;
+	text-shadow: 0 2px #000000;
+}
+
+#resume:hover{
+	transition: .3s;
+	color: #B1B1B1;
+	text-shadow: 0 2px #000000;
+}
+
+#github:hover{
+	transition: .3s;
+	color: #B1B1B1;
+	text-shadow: 0 2px #000000;
+}
