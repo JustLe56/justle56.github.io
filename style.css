@@ -1,87 +1,83 @@
-/* color pallete #B1B1B1 #EFEFEF #1A1A1A #D1D1D1 #3E3E3E*/
-
-@import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
-
-.container{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	height: 100vh;
+/* Palette: #000000, #14213D, #FCA311, #E5E5E5, #FFFFFF */
+a:link{
+	color: #14213d;
+	text-decoration: none;
 }
-
-
+a:visited{
+	color: #14213d;
+	text-decoration: none;
+}
+a:hover{
+	color: #4f7cac;
+	text-decoration: none;
+}
+a:active{
+	color: #4f7cac;
+	text-decoration: none;
+}
 body {
-	font-family: 'Lexend Deca', sans-serif;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	height: 100%;
 	margin: 0;
 	text-align: center;
 	width: 100%;
-	background-image: url('https://i.imgur.com/hODPKx9.jpg');
-	background-position: 50% 60%;
-	background-size: cover;
 }
-
+.break{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	color: #fca311;
+	font-size: 28px;
+}
 h1 {
 	font-size: 32px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 h2 {
-	color: #ffffff;
+	color: #14213d;
 	font-size: 56px; 
 }
-
-
-
-.hello {
-	height: 60%;
-	font-weight: bold;
-	text-shadow: 1px 2px #000000;
-}
-
-
 p {
-	color: #ffffff;
-	font-size: 2em;
+	color: #14213d;
+	font-size: 36px;
 }
 
-.hello a {
-	color: #ffffff;
-	font-size: 24px;
-	text-decoration: none;
-}
-
-#footer {
-	text-decoration: none;
-	color: #ffffff;
-	font-size: 26px;
-	position: relative;
-	font-weight: bold;
-}
-
-#github a{
-	color: #ffffff;
-	font-size: .5em;
-	text-decoration: none;
-	position: absolute;
-	bottom: 0%;
+.hero a {
 	text-align: center;
+	font-size: 24px;
+	
+}
+html{
+  /* background-image: url('https://i.imgur.com/hODPKx9.jpg');*/
+	background-size: cover; 
+	background-color: #e5e5e5
 }
 
-#mail:hover{
-	transition: .3s;
-	color: #B1B1B1;
-	text-shadow: 1 2px #000000;
+
+.hero {
+	padding: 225px 0;
+	margin: 30px;
+	text-align: center;
+	/* text-shadow: 0 2px #000000; */
+	font-family:  "Trebuchet MS", Helvetica, sans-serif;
 }
 
-#resume:hover{
-	transition: .3s;
-	color: #B1B1B1;
-	text-shadow: 1 2px #000000;
+.trans_box{
+	background-color: #4F7CAC;
+	background: rgb(204, 204, 204); /* Fallback for older browsers without RGBA-support */
+  background: rgba(204, 204, 204, 0.6);
+	position: absolute;
+  top: 220px;
+  left: 0;
+  height: 40%;
+  width: 100%;
 }
 
-#github:hover{
-	transition: .3s;
-	color: #B1B1B1;
-	text-shadow: 1 2px #000000;
+
+
+.feet {
+	color: #ffffff;
+  text-align: center;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 16px;
 }
+
